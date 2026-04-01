@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wc-dark: #1a0a2e;
+  --color-wc-purple: #3d1d72;
+  --color-wc-magenta: #c2185b;
+  --color-wc-gold: #ffc107;
+  --color-wc-teal: #00bcd4;
+  --color-wc-light: #f5f0ff;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
