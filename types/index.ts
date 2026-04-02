@@ -13,10 +13,26 @@ export interface Player {
   number: number
   position: 'GK' | 'DF' | 'MF' | 'FW'
   teamId: string
+  club: string
+  age: number
+  caps: number
+  internationalGoals: number
+  fifaRating: number
+  marketValue: number // in millions EUR
   goals: number
   assists: number
   yellowCards: number
   redCards: number
+}
+
+export interface MatchLineup {
+  starting: string[] // player IDs
+  subs: string[] // player IDs
+}
+
+export interface TeamMeta {
+  manager: string
+  formation: string
 }
 
 export interface Match {
@@ -32,6 +48,8 @@ export interface Match {
   venue: string // venue id
   status: 'scheduled' | 'live' | 'completed'
   matchday: number
+  homeLineup?: MatchLineup | null
+  awayLineup?: MatchLineup | null
 }
 
 export interface Standing {

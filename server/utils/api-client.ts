@@ -34,6 +34,29 @@ interface Match {
   matchday: number
 }
 
+interface Player {
+  id: string
+  name: string
+  number: number
+  position: string
+  teamId: string
+  club: string
+  age: number
+  caps: number
+  internationalGoals: number
+  fifaRating: number
+  marketValue: number
+  goals: number
+  assists: number
+  yellowCards: number
+  redCards: number
+}
+
+interface TeamMeta {
+  manager: string
+  formation: string
+}
+
 interface SeedData {
   tournament: {
     name: string
@@ -44,6 +67,8 @@ interface SeedData {
   venues: Venue[]
   teams: Team[]
   matches: Match[]
+  players: Player[]
+  teamMeta: Record<string, TeamMeta>
 }
 
 let cachedData: SeedData | null = null
@@ -87,4 +112,19 @@ export function getMatchesByTeam(teamId: string): Match[] {
   return data.matches.filter(
     (m) => m.homeTeamId === teamId || m.awayTeamId === teamId
   )
+}
+
+export function getPlayerById(id: string): Player | undefined {
+  const data = getSeedData()
+  return data.players.find((p) => p.id === id)
+}
+
+export function getPlayersByTeam(teamId: string): Player[] {
+  const data = getSeedData()
+  return data.players.filter((p) => p.teamId === teamId)
+}
+
+export function getTeamMeta(teamId: string): TeamMeta | undefined {
+  const data = getSeedData()
+  return data.teamMeta?.[teamId]
 }

@@ -66,6 +66,15 @@
           <span class="text-wc-light">{{ match.venueDetails.capacity?.toLocaleString() }}</span>
         </div>
       </div>
+
+      <!-- Lineups Section -->
+      <MatchLineup
+        v-if="match.homeTeam && match.awayTeam && match.homeLineup && match.awayLineup"
+        :home-team="match.homeTeam"
+        :away-team="match.awayTeam"
+        :home-lineup="match.homeLineup"
+        :away-lineup="match.awayLineup"
+      />
     </div>
 
     <div v-else class="text-wc-light/50 text-center py-12">Loading match...</div>
