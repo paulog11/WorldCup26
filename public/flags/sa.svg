@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#006C35"/>
+  <text x="150" y="90" text-anchor="middle" font-size="28" fill="#fff" font-family="serif" font-weight="bold">لا إله إلا الله</text>
+  <rect x="115" y="110" width="70" height="8" fill="#fff"/>
+  <rect x="120" y="110" width="6" height="30" fill="#fff"/>
+  <rect x="140" y="110" width="6" height="25" fill="#fff"/>
+  <rect x="160" y="110" width="6" height="30" fill="#fff"/>
+  <rect x="175" y="110" width="6" height="25" fill="#fff"/>
+</svg>

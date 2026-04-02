@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#00008B"/>
+  <rect width="150" height="100" fill="#00008B"/>
+  <rect x="60" y="0" width="30" height="100" fill="#fff"/>
+  <rect x="0" y="35" width="150" height="30" fill="#fff"/>
+  <rect x="67.5" y="0" width="15" height="100" fill="#CC0000"/>
+  <rect x="0" y="42.5" width="150" height="15" fill="#CC0000"/>
+  <line x1="0" y1="0" x2="150" y2="100" stroke="#fff" stroke-width="15"/>
+  <line x1="150" y1="0" x2="0" y2="100" stroke="#fff" stroke-width="15"/>
+  <line x1="0" y1="0" x2="150" y2="100" stroke="#CC0000" stroke-width="5"/>
+  <line x1="150" y1="0" x2="0" y2="100" stroke="#CC0000" stroke-width="5"/>
+  <polygon points="100,140 103,149 113,149 105,155 108,164 100,158 92,164 95,155 87,149 97,149" fill="#fff"/>
+  <polygon points="230,50 233,59 243,59 235,65 238,74 230,68 222,74 225,65 217,59 227,59" fill="#fff"/>
+  <polygon points="250,120 253,129 263,129 255,135 258,144 250,138 242,144 245,135 237,129 247,129" fill="#fff"/>
+  <polygon points="200,160 203,169 213,169 205,175 208,184 200,178 192,184 195,175 187,169 197,169" fill="#fff"/>
+  <polygon points="220,90 222,96 228,96 223,100 225,106 220,102 215,106 217,100 212,96 218,96" fill="#fff"/>
+</svg>
