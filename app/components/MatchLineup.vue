@@ -18,22 +18,28 @@
 
     <!-- Formation View -->
     <div v-if="activeTab === 'formation'" class="space-y-8">
-      <!-- Home team formation -->
-      <TeamFormation
-        :team="homeTeam"
-        :players="homeStarting"
-        :formation="homeMeta?.formation || '4-3-3'"
-        :manager="homeMeta?.manager"
-        side="home"
-      />
-      <!-- Away team formation -->
-      <TeamFormation
-        :team="awayTeam"
-        :players="awayStarting"
-        :formation="awayMeta?.formation || '4-3-3'"
-        :manager="awayMeta?.manager"
-        side="away"
-      />
+      <!-- Home team formation + subs -->
+      <div>
+        <TeamFormation
+          :team="homeTeam"
+          :players="homeStarting"
+          :formation="homeMeta?.formation || '4-3-3'"
+          :manager="homeMeta?.manager"
+          side="home"
+        />
+        <SubstituteList :team="homeTeam" :subs="homeSubs" />
+      </div>
+      <!-- Away team formation + subs -->
+      <div>
+        <TeamFormation
+          :team="awayTeam"
+          :players="awayStarting"
+          :formation="awayMeta?.formation || '4-3-3'"
+          :manager="awayMeta?.manager"
+          side="away"
+        />
+        <SubstituteList :team="awayTeam" :subs="awaySubs" />
+      </div>
     </div>
 
     <!-- List View -->
