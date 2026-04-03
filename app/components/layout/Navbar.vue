@@ -58,5 +58,6 @@ const links = [
   { to: '/groups', label: 'Groups' },
   { to: '/teams', label: 'Teams' },
   { to: '/venues', label: 'Venues' },
+  { to: '/bracket', label: 'Bracket' },
 ]
 </script>
