@@ -36,6 +36,18 @@
     <div v-if="showVenue && match.venueDetails" class="mt-2 text-xs text-wc-light/40 text-center">
       {{ match.venueDetails.name }}, {{ match.venueDetails.city }}
     </div>
+
+    <div
+      v-if="match.status === 'scheduled' && match.homeTeam?.fifaRank && match.awayTeam?.fifaRank"
+      class="mt-3"
+    >
+      <PredictionBar
+        :home-rank="match.homeTeam.fifaRank"
+        :away-rank="match.awayTeam.fifaRank"
+        :home-code="match.homeTeam.code"
+        :away-code="match.awayTeam.code"
+      />
+    </div>
   </NuxtLink>
 </template>
 

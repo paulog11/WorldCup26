@@ -154,7 +154,8 @@
       "code": "CZE",
       "flag": "/flags/cz.svg",
       "group": "A",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 37
     },
     {
       "id": "mex",
@@ -162,7 +163,8 @@
       "code": "MEX",
       "flag": "/flags/mx.svg",
       "group": "A",
-      "confederation": "CONCACAF"
+      "confederation": "CONCACAF",
+      "fifaRank": 14
     },
     {
       "id": "rsa",
@@ -170,7 +172,8 @@
       "code": "RSA",
       "flag": "/flags/za.svg",
       "group": "A",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 70
     },
     {
       "id": "kor",
@@ -178,7 +181,8 @@
       "code": "KOR",
       "flag": "/flags/kr.svg",
       "group": "A",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 22
     },
     {
       "id": "bih",
@@ -186,7 +190,8 @@
       "code": "BIH",
       "flag": "/flags/ba.svg",
       "group": "B",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 61
     },
     {
       "id": "can",
@@ -194,7 +199,8 @@
       "code": "CAN",
       "flag": "/flags/ca.svg",
       "group": "B",
-      "confederation": "CONCACAF"
+      "confederation": "CONCACAF",
+      "fifaRank": 38
     },
     {
       "id": "qat",
@@ -202,7 +208,8 @@
       "code": "QAT",
       "flag": "/flags/qa.svg",
       "group": "B",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 73
     },
     {
       "id": "sui",
@@ -210,7 +217,8 @@
       "code": "SUI",
       "flag": "/flags/ch.svg",
       "group": "B",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 19
     },
     {
       "id": "bra",
@@ -218,7 +226,8 @@
       "code": "BRA",
       "flag": "/flags/br.svg",
       "group": "C",
-      "confederation": "CONMEBOL"
+      "confederation": "CONMEBOL",
+      "fifaRank": 5
     },
     {
       "id": "hai",
@@ -226,7 +235,8 @@
       "code": "HAI",
       "flag": "/flags/ht.svg",
       "group": "C",
-      "confederation": "CONCACAF"
+      "confederation": "CONCACAF",
+      "fifaRank": 97
     },
     {
       "id": "mar",
@@ -234,7 +244,8 @@
       "code": "MAR",
       "flag": "/flags/ma.svg",
       "group": "C",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 12
     },
     {
       "id": "sco",
@@ -242,7 +253,8 @@
       "code": "SCO",
       "flag": "/flags/gb-sct.svg",
       "group": "C",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 36
     },
     {
       "id": "aus",
@@ -250,7 +262,8 @@
       "code": "AUS",
       "flag": "/flags/au.svg",
       "group": "D",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 23
     },
     {
       "id": "par",
@@ -258,7 +271,8 @@
       "code": "PAR",
       "flag": "/flags/py.svg",
       "group": "D",
-      "confederation": "CONMEBOL"
+      "confederation": "CONMEBOL",
+      "fifaRank": 42
     },
     {
       "id": "tur",
@@ -266,7 +280,8 @@
       "code": "TUR",
       "flag": "/flags/tr.svg",
       "group": "D",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 24
     },
     {
       "id": "usa",
@@ -274,7 +289,8 @@
       "code": "USA",
       "flag": "/flags/us.svg",
       "group": "D",
-      "confederation": "CONCACAF"
+      "confederation": "CONCACAF",
+      "fifaRank": 16
     },
     {
       "id": "cur",
@@ -282,7 +298,8 @@
       "code": "CUR",
       "flag": "/flags/cw.svg",
       "group": "E",
-      "confederation": "CONCACAF"
+      "confederation": "CONCACAF",
+      "fifaRank": 83
     },
     {
       "id": "ecu",
@@ -290,7 +307,8 @@
       "code": "ECU",
       "flag": "/flags/ec.svg",
       "group": "E",
-      "confederation": "CONMEBOL"
+      "confederation": "CONMEBOL",
+      "fifaRank": 44
     },
     {
       "id": "ger",
@@ -298,7 +316,8 @@
       "code": "GER",
       "flag": "/flags/de.svg",
       "group": "E",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 9
     },
     {
       "id": "civ",
@@ -306,7 +325,8 @@
       "code": "CIV",
       "flag": "/flags/ci.svg",
       "group": "E",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 48
     },
     {
       "id": "jpn",
@@ -314,7 +334,8 @@
       "code": "JPN",
       "flag": "/flags/jp.svg",
       "group": "F",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 17
     },
     {
       "id": "ned",
@@ -322,7 +343,8 @@
       "code": "NED",
       "flag": "/flags/nl.svg",
       "group": "F",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 8
     },
     {
       "id": "swe",
@@ -330,7 +352,8 @@
       "code": "SWE",
       "flag": "/flags/se.svg",
       "group": "F",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 30
     },
     {
       "id": "tun",
@@ -338,7 +361,8 @@
       "code": "TUN",
       "flag": "/flags/tn.svg",
       "group": "F",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 35
     },
     {
       "id": "bel",
@@ -346,7 +370,8 @@
       "code": "BEL",
       "flag": "/flags/be.svg",
       "group": "G",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 7
     },
     {
       "id": "egy",
@@ -354,7 +379,8 @@
       "code": "EGY",
       "flag": "/flags/eg.svg",
       "group": "G",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 52
     },
     {
       "id": "irn",
@@ -362,7 +388,8 @@
       "code": "IRN",
       "flag": "/flags/ir.svg",
       "group": "G",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 21
     },
     {
       "id": "nzl",
@@ -370,7 +397,8 @@
       "code": "NZL",
       "flag": "/flags/nz.svg",
       "group": "G",
-      "confederation": "OFC"
+      "confederation": "OFC",
+      "fifaRank": 96
     },
     {
       "id": "cpv",
@@ -378,7 +406,8 @@
       "code": "CPV",
       "flag": "/flags/cv.svg",
       "group": "H",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 66
     },
     {
       "id": "sau",
@@ -386,7 +415,8 @@
       "code": "KSA",
       "flag": "/flags/sa.svg",
       "group": "H",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 55
     },
     {
       "id": "esp",
@@ -394,7 +424,8 @@
       "code": "ESP",
       "flag": "/flags/es.svg",
       "group": "H",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 3
     },
     {
       "id": "uru",
@@ -402,7 +433,8 @@
       "code": "URU",
       "flag": "/flags/uy.svg",
       "group": "H",
-      "confederation": "CONMEBOL"
+      "confederation": "CONMEBOL",
+      "fifaRank": 13
     },
     {
       "id": "fra",
@@ -410,7 +442,8 @@
       "code": "FRA",
       "flag": "/flags/fr.svg",
       "group": "I",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 2
     },
     {
       "id": "irq",
@@ -418,7 +451,8 @@
       "code": "IRQ",
       "flag": "/flags/iq.svg",
       "group": "I",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 89
     },
     {
       "id": "nor",
@@ -426,7 +460,8 @@
       "code": "NOR",
       "flag": "/flags/no.svg",
       "group": "I",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 26
     },
     {
       "id": "sen",
@@ -434,7 +469,8 @@
       "code": "SEN",
       "flag": "/flags/sn.svg",
       "group": "I",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 20
     },
     {
       "id": "alg",
@@ -442,7 +478,8 @@
       "code": "ALG",
       "flag": "/flags/dz.svg",
       "group": "J",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 34
     },
     {
       "id": "arg",
@@ -450,7 +487,8 @@
       "code": "ARG",
       "flag": "/flags/ar.svg",
       "group": "J",
-      "confederation": "CONMEBOL"
+      "confederation": "CONMEBOL",
+      "fifaRank": 1
     },
     {
       "id": "aut",
@@ -458,7 +496,8 @@
       "code": "AUT",
       "flag": "/flags/at.svg",
       "group": "J",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 25
     },
     {
       "id": "jor",
@@ -466,7 +505,8 @@
       "code": "JOR",
       "flag": "/flags/jo.svg",
       "group": "J",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 87
     },
     {
       "id": "col",
@@ -474,7 +514,8 @@
       "code": "COL",
       "flag": "/flags/co.svg",
       "group": "K",
-      "confederation": "CONMEBOL"
+      "confederation": "CONMEBOL",
+      "fifaRank": 11
     },
     {
       "id": "cod",
@@ -482,7 +523,8 @@
       "code": "COD",
       "flag": "/flags/cd.svg",
       "group": "K",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 62
     },
     {
       "id": "por",
@@ -490,7 +532,8 @@
       "code": "POR",
       "flag": "/flags/pt.svg",
       "group": "K",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 6
     },
     {
       "id": "uzb",
@@ -498,7 +541,8 @@
       "code": "UZB",
       "flag": "/flags/uz.svg",
       "group": "K",
-      "confederation": "AFC"
+      "confederation": "AFC",
+      "fifaRank": 74
     },
     {
       "id": "cro",
@@ -506,7 +550,8 @@
       "code": "CRO",
       "flag": "/flags/hr.svg",
       "group": "L",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 10
     },
     {
       "id": "eng",
@@ -514,7 +559,8 @@
       "code": "ENG",
       "flag": "/flags/gb-eng.svg",
       "group": "L",
-      "confederation": "UEFA"
+      "confederation": "UEFA",
+      "fifaRank": 4
     },
     {
       "id": "gha",
@@ -522,7 +568,8 @@
       "code": "GHA",
       "flag": "/flags/gh.svg",
       "group": "L",
-      "confederation": "CAF"
+      "confederation": "CAF",
+      "fifaRank": 60
     },
     {
       "id": "pan",
@@ -530,7 +577,8 @@
       "code": "PAN",
       "flag": "/flags/pa.svg",
       "group": "L",
-      "confederation": "CONCACAF"
+      "confederation": "CONCACAF",
+      "fifaRank": 77
     }
   ],
   "matches": [

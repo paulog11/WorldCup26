@@ -5,6 +5,7 @@ export interface Team {
   flag: string // path to flag image
   group: string
   confederation: string
+  fifaRank: number
 }
 
 export interface Player {

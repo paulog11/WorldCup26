@@ -41,6 +41,26 @@
         </div>
       </div>
 
+      <!-- Winner Prediction -->
+      <div
+        v-if="match.status === 'scheduled' && match.homeTeam?.fifaRank && match.awayTeam?.fifaRank"
+        class="border-t border-wc-purple pt-5 mb-5"
+      >
+        <h3 class="text-xs uppercase tracking-wide text-wc-teal font-semibold mb-3 text-center">
+          Winner Prediction
+        </h3>
+        <PredictionBar
+          :home-rank="match.homeTeam.fifaRank"
+          :away-rank="match.awayTeam.fifaRank"
+          :home-code="match.homeTeam.code"
+          :away-code="match.awayTeam.code"
+          size="lg"
+        />
+        <p class="text-[11px] text-wc-light/50 text-center mt-3">
+          Based on FIFA world rankings ({{ match.homeTeam.code }} #{{ match.homeTeam.fifaRank }} &middot; {{ match.awayTeam.code }} #{{ match.awayTeam.fifaRank }})
+        </p>
+      </div>
+
       <!-- Match Info -->
       <div class="border-t border-wc-purple pt-4 space-y-3 text-sm text-wc-light/60">
         <div class="flex justify-between">
