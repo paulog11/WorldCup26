@@ -13,6 +13,10 @@ export default defineNuxtConfig({
     cssPath: '~/assets/css/main.css',
   },
 
+  nitro: {
+    preset: 'cloudflare_pages',
+  },
+
   app: {
     head: {
       title: 'World Cup 2026',
@@ -28,7 +32,6 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    balldontlieApiKey: '',
     public: {
       tournamentStart: '2026-06-11T00:00:00Z',
     },

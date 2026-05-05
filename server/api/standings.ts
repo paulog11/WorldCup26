@@ -1,5 +1,6 @@
 import { defineEventHandler, getQuery } from 'h3'
 import { getSeedData, getTeamById } from '../utils/api-client'
+import { getLiveSnapshot } from '../utils/live-snapshot'
 
 interface StandingEntry {
   team: ReturnType<typeof getTeamById>
@@ -81,19 +82,39 @@ function computeStandings(groupName: string): StandingEntry[] {
   return result
 }
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
   const query = getQuery(event)
   const { group } = query as { group?: string }
 
   const groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
+  const snapshot = await getLiveSnapshot(event)
+
+  function resolveGroup(g: string): StandingEntry[] {
+    const live = snapshot?.standings[g]
+    if (live && live.length > 0) {
+      // Map live standings back to full StandingEntry shape using team objects from seed
+      return live.map((s) => ({
+        team: getTeamById(s.teamId),
+        played: s.played,
+        won: s.won,
+        drawn: s.drawn,
+        lost: s.lost,
+        goalsFor: s.goalsFor,
+        goalsAgainst: s.goalsAgainst,
+        goalDifference: s.goalDifference,
+        points: s.points,
+      }))
+    }
+    return computeStandings(g)
+  }
 
   if (group) {
-    return computeStandings(group)
+    return resolveGroup(group)
   }
 
   const allStandings: Record<string, StandingEntry[]> = {}
   for (const g of groups) {
-    allStandings[g] = computeStandings(g)
+    allStandings[g] = resolveGroup(g)
   }
   return allStandings
 })

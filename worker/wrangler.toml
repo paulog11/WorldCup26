@@ -1,0 +1,17 @@
+name = "wc26-refresh"
+main = "src/refresh.ts"
+compatibility_date = "2026-05-01"
+
+[[kv_namespaces]]
+binding = "LIVE_CACHE"
+# Replace with your KV namespace ID after running:
+# wrangler kv:namespace create LIVE_CACHE
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[triggers]
+# Every minute during the tournament. Change to "*/5 * * * *" on non-match days
+# or "0 */6 * * *" in the off-season.
+crons = ["*/1 * * * *"]
+
+# Secret required: RAPIDAPI_KEY
+# Set via: wrangler secret put RAPIDAPI_KEY

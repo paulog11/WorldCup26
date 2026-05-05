@@ -1,0 +1,138 @@
+[
+  {
+    "id": "metlife",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford, NJ",
+    "country": "USA",
+    "capacity": 82500,
+    "image": "/venues/metlife.jpg"
+  },
+  {
+    "id": "rose-bowl",
+    "name": "Rose Bowl",
+    "city": "Pasadena, CA",
+    "country": "USA",
+    "capacity": 88432,
+    "image": "/venues/rose-bowl.jpg"
+  },
+  {
+    "id": "at-and-t",
+    "name": "AT&T Stadium",
+    "city": "Arlington, TX",
+    "country": "USA",
+    "capacity": 80000,
+    "image": "/venues/att.jpg"
+  },
+  {
+    "id": "sofi",
+    "name": "SoFi Stadium",
+    "city": "Inglewood, CA",
+    "country": "USA",
+    "capacity": 70240,
+    "image": "/venues/sofi.jpg"
+  },
+  {
+    "id": "hard-rock",
+    "name": "Hard Rock Stadium",
+    "city": "Miami Gardens, FL",
+    "country": "USA",
+    "capacity": 64767,
+    "image": "/venues/hard-rock.jpg"
+  },
+  {
+    "id": "lincoln",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia, PA",
+    "country": "USA",
+    "capacity": 69328,
+    "image": "/venues/lincoln.jpg"
+  },
+  {
+    "id": "mercedes-benz",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta, GA",
+    "country": "USA",
+    "capacity": 71000,
+    "image": "/venues/mercedes-benz.jpg"
+  },
+  {
+    "id": "nrg",
+    "name": "NRG Stadium",
+    "city": "Houston, TX",
+    "country": "USA",
+    "capacity": 72220,
+    "image": "/venues/nrg.jpg"
+  },
+  {
+    "id": "gillette",
+    "name": "Gillette Stadium",
+    "city": "Foxborough, MA",
+    "country": "USA",
+    "capacity": 65878,
+    "image": "/venues/gillette.jpg"
+  },
+  {
+    "id": "lumen",
+    "name": "Lumen Field",
+    "city": "Seattle, WA",
+    "country": "USA",
+    "capacity": 68740,
+    "image": "/venues/lumen.jpg"
+  },
+  {
+    "id": "levis",
+    "name": "Levi's Stadium",
+    "city": "Santa Clara, CA",
+    "country": "USA",
+    "capacity": 68500,
+    "image": "/venues/levis.jpg"
+  },
+  {
+    "id": "bmo",
+    "name": "BMO Field",
+    "city": "Toronto",
+    "country": "Canada",
+    "capacity": 45736,
+    "image": "/venues/bmo.jpg"
+  },
+  {
+    "id": "bc-place",
+    "name": "BC Place",
+    "city": "Vancouver",
+    "country": "Canada",
+    "capacity": 54500,
+    "image": "/venues/bc-place.jpg"
+  },
+  {
+    "id": "azteca",
+    "name": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "capacity": 87523,
+    "image": "/venues/azteca.jpg"
+  },
+  {
+    "id": "akron",
+    "name": "Estadio Guadalajara",
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "capacity": 49850,
+    "image": "/venues/akron.jpg"
+  },
+  {
+    "id": "bbva",
+    "name": "Estadio BBVA",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "capacity": 53500,
+    "image": "/venues/bbva.jpg"
+  },
+  {
+    "id": "arrowhead",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "United States",
+    "capacity": 76416,
+    "image": "/venues/arrowhead.jpg"
+  }
+]

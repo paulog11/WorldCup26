@@ -1,5 +1,6 @@
 import { defineEventHandler, getQuery } from 'h3'
 import { getSeedData, getTeamById, getVenueById } from '../utils/api-client'
+import { getLiveSnapshot } from '../utils/live-snapshot'
 
 function resolveMatch(match: any) {
   return {
@@ -10,7 +11,7 @@ function resolveMatch(match: any) {
   }
 }
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
   const query = getQuery(event)
   const { group, date, team, stage } = query as {
     group?: string
@@ -39,5 +40,21 @@ export default defineEventHandler((event) => {
     matches = matches.filter((m) => m.stage === stage)
   }
 
-  return matches.map(resolveMatch)
+  const resolved = matches.map(resolveMatch)
+
+  const snapshot = await getLiveSnapshot(event)
+  if (!snapshot) return resolved
+
+  return resolved.map((m: any) => {
+    const live = snapshot.matches[m.id]
+    if (!live) return m
+    return {
+      ...m,
+      homeScore: live.homeScore ?? m.homeScore,
+      awayScore: live.awayScore ?? m.awayScore,
+      status: live.status ?? m.status,
+      homeLineup: live.homeLineup ?? m.homeLineup,
+      awayLineup: live.awayLineup ?? m.awayLineup,
+    }
+  })
 })
